@@ -1,19 +1,21 @@
 import React, { createContext, useState } from "react";
 import axios from "axios";
+/**
+ * PostsListContext Copmonent
+ * @state {array} posts
+ * @state {boolen} error
+ * @state {boolen} isLoading
+ * @state {string} searchInput
+ * @func searchHandler  // Handler to search URL.
+ */
+
 export const PostsContext = createContext();
+
 export const PostsListContext = (props) => {
   const [posts, setPosts] = useState([]);
   const [searchInput, setSearchInput] = useState("");
   const [error, setError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  /**
-   * PostsListContext Copmonent
-   * @state {array} posts
-   * @state {boolen} error
-   * @state {boolen} isLoading
-   * @state {string} searchInput
-   * @func searchHandler  // Handler to search URL.
-   */
 
   // Search Handler
   const searchHandler = async () => {

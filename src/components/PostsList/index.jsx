@@ -11,6 +11,7 @@ import PostCard from "../PostCard";
  * @func loadMoreHandler  // Handler to load more data.
  * @func renderPosts  // Map through all posts.
  */
+
 const PostsList = () => {
   const [visible, setvisible] = useState(6);
   const { posts, error, isLoading } = useContext(PostsContext);

@@ -14,7 +14,6 @@ const PostCard = ({ post }) => {
   const [postImage, setPostImage] = useState([]);
   const { title, excerpt, link, date } = post;
 
-  //Fetch Images
   /**
    * Assumption made for the thumbnail image
    */
