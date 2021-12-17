@@ -2,7 +2,7 @@ import React from "react";
 import moment from "moment";
 /**
  * Date Component
- * @prop {Number} date
+ * @prop {number} date
  */
 export const Date = ({ date }) => {
   return (
