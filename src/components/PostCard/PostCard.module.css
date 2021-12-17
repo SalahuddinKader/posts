@@ -1,0 +1,95 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 320px;
+  grid-template-rows: 210px 210px 150px;
+  grid-template-areas: "image" "text" "button";
+  background: #fff;
+  box-shadow: 0px 3px 36px #00000014;
+  border-radius: 8px 8px 0px 0px;
+  opacity: 1;
+  text-align: justify;
+  /* margin: 25px !important; */
+}
+.card__image {
+  grid-area: image;
+  height: 263px;
+  width: 320px;
+  border-radius: 8px 8px 0px 0px;
+  background-size: cover;
+}
+.card__copy {
+  grid-area: text;
+}
+.card_button {
+  grid-area: button;
+}
+
+.card__copy {
+  grid-area: text;
+  margin: 15px;
+}
+.card__copy .card__date {
+  color: #fff;
+  border-radius: 50%;
+  padding: 20px 10px 20px 30px;
+  width: 40px;
+  background: transparent
+    linear-gradient(129deg, #a08ac0 0%, #431679 50%, #8547ad 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 3px 10px #00000029;
+  height: 35px;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 200px;
+}
+.card__copy h6 {
+  text-align: left;
+  font: normal normal bold 16px Montserrat;
+  letter-spacing: 0px;
+  color: #684394;
+  opacity: 1;
+  margin-top: 0px;
+}
+.card__copy p {
+  text-align: left;
+  font: normal normal normal 14px/21px Montserrat;
+  letter-spacing: 0px;
+  color: #4d4d4d;
+  opacity: 1;
+  margin-top: -10px;
+}
+
+.card:hover {
+  transform: scale(1);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.card {
+  transition: 0.5s ease;
+  margin: 30px;
+}
+
+.card__link {
+  text-align: end;
+  margin: 40px 20px;
+}
+.card__btn__read__more {
+  width: 163px;
+  height: 45px;
+  border-radius: 80px;
+  border: 1px solid #e6e6e6;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  color: #684394;
+  opacity: 1;
+  font-weight: 600;
+  text-align: left;
+  font: normal normal bold 16px/19px;
+  line-height: 30px;
+  cursor: pointer;
+  margin-top: 50px;
+  padding-left: 30px;
+}

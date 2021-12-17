@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 86%;
+  margin: 0 auto;
+  min-height: 550px;
+}
+.error {
+  text-align: center;
+  color: rgb(202, 53, 53);
+  font-weight: 600;
+}
+.btn {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.btn__load__more {
+  width: 233px;
+  height: 45px;
+  border-radius: 80px;
+  border: 1px solid #684394;
+  letter-spacing: 0px;
+  font: normal normal bold 16px/19px;
+  background-color: #fff;
+  color: rgb(89, 30, 145);
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 1;
+}

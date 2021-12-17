@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  height: 15px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  background: transparent
+    linear-gradient(97deg, #511999 0%, #431679 50%, #8547ad 100%) 0% 0%
+    no-repeat padding-box;
+}

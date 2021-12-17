@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 
+### URL for Search
+
+https://this-land.co.uk/wp-json/wp/v2/posts
+https://www.bewley.co.uk/wp-json/wp/v2/posts
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
