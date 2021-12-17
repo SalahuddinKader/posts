@@ -24,9 +24,6 @@
 .card__copy {
   grid-area: text;
 }
-.card_button {
-  grid-area: button;
-}
 
 .card__copy {
   grid-area: text;
@@ -74,6 +71,7 @@
 }
 
 .card__link {
+  grid-area: button;
   text-align: end;
   margin: 40px 20px;
 }
