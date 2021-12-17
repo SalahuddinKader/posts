@@ -1,6 +1,5 @@
 import React, { createContext, useState } from "react";
 import axios from "axios";
-//const URL = `https://www.bewley.co.uk/wp-json/wp/v2/posts`;
 export const PostsContext = createContext();
 export const PostsListContext = (props) => {
   const [posts, setPosts] = useState([]);
